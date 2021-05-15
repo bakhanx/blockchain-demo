@@ -11,9 +11,11 @@
     "bitcoin"
   ],
   "scripts": {
+    
     "start": "node ./bin/www",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "build" : "webpack --mode=none"
   },
   "repository": {
     "type": "git",
